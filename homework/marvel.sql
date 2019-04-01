@@ -62,5 +62,4 @@ INSERT INTO people (name) VALUES ('Ally');
 DELETE FROM people WHERE name = 'Tony Goncalves';
 INSERT INTO movies (title, year, show_time) VALUES ('Captain Marvel', 2019, '00:00');
 UPDATE movies SET show_time = '19:35' WHERE show_time = '17:35';
-DELETE FROM people WHERE name = 'Atyha Arshad'
-	AND 'Calum Cannon';
+DELETE FROM people WHERE name = 'Atyha Arshad' OR name = 'Calum Cannon';
